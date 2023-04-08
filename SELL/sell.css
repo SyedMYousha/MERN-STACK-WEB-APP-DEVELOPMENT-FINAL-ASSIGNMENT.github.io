@@ -1,0 +1,205 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+
+.form-control {
+    width: 300px;
+  }
+  
+
+.nav-items {
+    display: flex;
+    justify-content: flex-start;
+    justify-content: space-between;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    padding-left: 75px;
+    padding-right: 75px;
+    background-color: #0082e6;
+    color: #fff;
+  }
+  
+  .navbar-logo a {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .navbar-menu {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar-menu li {
+    margin-left: 20px;
+  }
+  
+  .navbar-menu li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+  }
+  
+  .navbar-toggle {
+    display: none;
+    cursor: pointer;
+  }
+  
+  .navbar-toggle span {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px;
+    background-color: #fff;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .navbar-menu {
+      display: none;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      width: 100%;
+      padding: 10px;
+      background-color: #333;
+    }
+  
+    .navbar-menu li {
+      margin: 10px 0;
+    }
+  
+    .navbar-toggle {
+      display: block;
+    }
+  }
+  
+/* WHY SELL WITH US ? */
+
+.why-sell-with-us {
+    background-color: #fff;
+    padding: 50px;
+  }
+  
+  .why-sell-with-us h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+  }
+  
+  .why-sell-with-us h3 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .why-sell-with-us p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .why-sell-with-us img {
+    display: block;
+    margin-bottom: 20px;
+    max-width: 100%;
+  }
+  
+
+
+  /* GUIDES FOR SELLER */
+
+  .guides-for-sellers {
+    background-color: #f7f7f7;
+    padding: 50px;
+  }
+  
+  .guides-for-sellers h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+  }
+  
+  .guides-for-sellers h3 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .guides-for-sellers p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .guides-for-sellers .btn {
+    font-size: 1.2rem;
+    margin-top: 10px;
+  }
+  
+
+
+
+  
+  /* FOOTER */
+
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 50px 0;
+  }
+  
+  .footer-content {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .footer-section {
+    width: 25%;
+    margin-bottom: 30px;
+  }
+  
+  .footer-section h2 {
+    margin-bottom: 20px;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  li i {
+    margin-right: 10px;
+  }
+  
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .footer-bottom {
+    background-color: #222;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  .footer-bottom p {
+    margin: 0;
+    font-size: 14px;
+  }
+  
+  
+

@@ -1,0 +1,423 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    padding-left: 75px;
+    padding-right: 75px;
+    background-color: #0082e6;
+    color: #fff;
+  }
+  
+  .navbar-logo a {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .navbar-menu {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar-menu li {
+    margin-left: 20px;
+  }
+  
+  .navbar-menu li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+  }
+  
+  .navbar-toggle {
+    display: none;
+    cursor: pointer;
+  }
+  
+  .navbar-toggle span {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px;
+    background-color: #fff;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .navbar-menu {
+      display: none;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      width: 100%;
+      padding: 10px;
+      background-color: #333;
+    }
+  
+    .navbar-menu li {
+      margin: 10px 0;
+    }
+  
+    .navbar-toggle {
+      display: block;
+    }
+  }
+  
+
+
+
+/*HEADER  ||||  HEADER  */
+
+#header {
+    height: 75vh;
+    background-image: url('https://thumbor.forbes.com/thumbor/fit-in/900x510/https://www.forbes.com/home-improvement/wp-content/uploads/2022/07/featured-image-landscaping-front-yard.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.container-02 {
+    text-align: center;
+    padding-top: 10vh;
+}
+
+.header-txt {
+    font-size: 55px;
+    color: #0082e6;
+    font-weight: bold;
+}
+
+.text-02 {
+    font-size: 25px;
+    color: #fff;
+    text-align: center;
+    align-self: center;
+    padding: 60px 300px;
+}
+
+/*.btn {
+    font-size: 20px;
+    background-color: #0082e6;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 30px;
+    transition: transform .4s;
+    margin: -30px 370px;
+    text-align: center;
+
+}
+
+.btn:hover {
+    transform: scale(1.2);
+    color:white;
+    background-color: #0082e6;
+} */
+
+
+/* BELOW CODES FOR SEARCH CONTAINER | COPIED FROM CGPT */
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .search-container form {
+    display: flex;
+  }
+  
+  .search-container input[type="text"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 5px;
+    font-size: 16px;
+  }
+  
+  .search-container button[type="submit"] {
+    background-color: #0082e6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .search-container button[type="submit"]:hover {
+    background-color: #0082e6;
+  }
+
+  /* WHAT SECTION */
+
+.m-heading {
+    font-size: 30px;
+}
+
+.bg-ligth {
+    background-color: #eee;
+    color: #333;
+}
+
+.text-center {
+    text-align: center;
+}
+
+#what {
+
+    padding-bottom: 5rem;
+    padding-top: 1.2rem;
+}
+
+#what .boxes {
+    display: flex;
+    text-align: center;
+}
+
+#what .boxes .box {
+    flex: 1;
+    padding: 2rem;
+}
+
+#what .boxes i {
+    background-color: #93cb52;
+    border-radius: 50%;
+    padding: 2.2rem;
+    margin-bottom: 1.2rem;
+}
+
+#what .boxes h3 {
+    font-size: 1.2rem;
+}
+
+
+
+/* TEAM SECTION */
+
+section {
+    text-align: center;
+    padding: 50px;
+  }
+  
+  h2 {
+    margin-bottom: 30px;
+  }
+  
+  .team-members {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 10%;
+  }
+  
+  .team-member {
+    align-items: center;
+
+    width: 250px;
+    margin: 20px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    padding: 20px;
+  }
+  
+  .team-member img {
+    width: 100%;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+  
+  .team-member h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .team-member p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  
+
+  /* GALLERY SECTION */
+
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #dad8d8;
+  }
+  
+  .gallery a {
+    margin: 10px;
+  }
+  
+  .gallery img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+
+
+  /* CUSTOMER SECTION  */
+  
+  .customers {
+    padding: 50px;
+  }
+  
+  .customer-list {
+    padding-top: 35px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .customer {
+    width: 30%;
+    margin-bottom: 30px;
+  }
+  
+  .customer img {
+    width: 200px;
+    height: 18vh;
+    
+  }
+  
+  .customer h3 {
+    margin-top: 20px;
+    font-size: 24px;
+  }
+  
+  .customer p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  .text {
+    text-align: center;
+  }
+
+  .m-text {
+    font-size: 40px;
+    font-weight: 900;
+    text-align: center;
+  }
+
+  /* MAP */
+
+  section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .signup-container {
+    width: 45%;
+    background-color: #f2f2f2;
+    padding: 30px;
+    margin-bottom: 30px;
+  }
+  
+  .signup-container h2 {
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  button[type="submit"] {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  button[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #444;
+  }
+  
+  .location-map {
+    width: 45%;
+  }
+  
+
+  /* FOOTER */
+
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 50px 0;
+  }
+  
+  .footer-content {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .footer-section {
+    width: 25%;
+    margin-bottom: 30px;
+  }
+  
+  .footer-section h2 {
+    margin-bottom: 20px;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  li i {
+    margin-right: 10px;
+  }
+  
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .footer-bottom {
+    background-color: #222;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  .footer-bottom p {
+    margin: 0;
+    font-size: 14px;
+  }
+  

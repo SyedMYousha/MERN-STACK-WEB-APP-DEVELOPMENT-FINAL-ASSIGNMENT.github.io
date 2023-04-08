@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+         <!-- GOOGLE FONTS -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link 
+  rel="preconnect" 
+  href="https://fonts.gstatic.com" 
+  crossorigin>
+  <link 
+  href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300&display=swap" 
+  rel="stylesheet">
+
+  <!--BOOTSTRAP-->
+  
+  <link 
+  href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" 
+  rel="stylesheet" 
+  integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" 
+  crossorigin="anonymous">
+  
+  <!--FONT AWESOME-->
+  
+  <link 
+  rel="stylesheet" 
+  href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" 
+  integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" 
+  crossorigin="anonymous"/>
+  
+  <!-- CSS -->
+  
+  <link 
+  rel="stylesheet"
+  href="advertise.css">
+
+
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="navbar-logo">
+      <a href="#">I0GO</a>
+    </div>
+    <ul class="navbar-menu">
+      <li><a href="/MAIN/index.html">Home</a></li>
+      <li><a href="/BUY/buy.html">Buy</a></li>
+      <li><a href="/RENT/rent.html">Rent</a></li>
+      <li><a href="/SELL/sell.html">Sell</a></li>
+      <li><a href="/ADVERTISE/advertise.html">Advertise</a></li>
+    </ul>
+    <div class="navbar-toggle">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </nav>
+  
+
+
+  <section class="property-advertisement">
+    <div class="container">
+      <h2>Advertise Your Property</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card">
+            <img src="data:image/jpeg;base64,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" class="card-img-top" alt="Option 1">
+            <div class="card-body">
+              <h3 class="card-title">Apartment</h3>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <a href="#" class="btn btn-primary">Learn More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="https://cdn.photos.sparkplatform.com/rra/20230303230212890559000000-o.jpg" class="card-img-top" alt="Option 2">
+            <div class="card-body">
+              <h3 class="card-title">Villa</h3>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <a href="#" class="btn btn-primary">Learn More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="https://media.istockphoto.com/id/502347694/photo/beautiful-landscaped-upscale-home.jpg?s=612x612&w=0&k=20&c=yV_tIOe6QArLEfhkZvcT45De4VR62egzYBhqB4onrfw=" class="card-img-top" alt="Option 3">
+            <div class="card-body">
+              <h3 class="card-title">House</h3>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <a href="#" class="btn btn-primary">Learn More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="options-section">
+    <div class="container">
+      <h2>What Best Describes You?</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="option-card">
+            <i class="fas fa-users"></i>
+            <h3>Agent/Broker</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="option-card">
+            <i class="fas fa-building"></i>
+            <h3>Property Manager</h3>
+            <p>Lorem ipsum dolor sit consect.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="option-card">
+            <i class="fas fa-home"></i>
+            <h3>Landlord</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="option-card">
+            <i class="fas fa-money-bill-alt"></i>
+            <h3>Lender</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="option-card">
+            <i class="fas fa-hammer"></i>
+            <h3>Builder</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="option-card">
+            <i class="fas fa-chart-bar"></i>
+            <h3>Brand</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+    <!-- FOOTER -->
+      
+
+    <footer>
+      <div class="footer-content">
+        <div class="footer-section about">
+          <h2>About Us</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id lectus id augue congue consectetur. Donec ornare quam in justo blandit hendrerit.</p>
+        </div>
+        <div class="footer-section contact">
+          <h2>Contact Us</h2>
+          <ul>
+            <li><i class="fa fa-map-marker"></i>BanoQabil Inst.Anjuman Complex, Khi</li>
+            <li><i class="fa fa-phone"></i>(+92) 333-02105540</li>
+            <li><i class="fa fa-envelope"></i>Realestate@gmail.com</li>
+          </ul>
+        </div>
+        <div class="footer-section links">
+          <h2>Quick Links</h2>
+          <ul>
+            <li><a href="./MAIN/index.html">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="footer-section social">
+          <h2>Follow Us</h2>
+          <ul>
+            <li><a href="#"><i class="fa-solid fa-instagram fa-2x"></i></a></li>
+            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+            <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p class="txt">&copy; 2023 COMPANHY NAME. All Rights Reserved</p>
+      </div>
+    </footer>
+    
+  
+</body>
+</html>
